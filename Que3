@@ -1,0 +1,16 @@
+def add_integers():
+    num1 = int(input("Enter first integer: "))
+    num2 = int(input("Enter second integer: "))
+    int_sum = num1+num2
+    if 15 <= int_sum <= 20:
+        print("The sum is", 20)
+    else:
+        print("The sum is", int_sum)
+
+
+def main():
+    add_integers()
+
+
+if __name__ == "__main__":
+    main()
